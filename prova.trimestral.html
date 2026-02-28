@@ -1,0 +1,206 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto HTML e CSS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eaeaea;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        /* MENU */
+        .menu {
+            background-color: #8cc63f;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            background-color: #8cc63f;
+            padding: 40px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin-top: 10px;
+        }
+
+        /* SEÇÕES DE TEXTO */
+        .conteudo {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        /* FOTOS */
+        .fotos {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            gap: 10px;
+        }
+
+        .foto {
+            width: 30%;
+            height: 150px;
+            background-color: #8cc63f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* TEXTOS */
+        .textos {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+
+        .texto {
+            width: 48%;
+            height: 150px;
+            background-color: #8cc63f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #8cc63f;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="menu">
+        MENU
+    </div>
+
+    <div class="sidebar">
+        SIDE BAR
+    </div>
+
+    <div class="conteudo">
+        <h2>Introdução à Linguagem CSS</h2>
+        <p>
+            CSS significa <strong>Cascading Style Sheets</strong> (Folhas de Estilo em Cascata).
+            Ele é usado para estilizar páginas HTML, ou seja, deixar o site bonito e organizado.
+        </p>
+
+        <ul>
+            <li>Mudar cores</li>
+            <li>Definir tamanhos de texto</li>
+            <li>Ajustar fontes</li>
+            <li>Criar layouts (menus, colunas, rodapés)</li>
+            <li>Controlar espaçamento e posicionamento</li>
+        </ul>
+
+        <p>
+            O HTML cria a estrutura do site.  
+            O CSS cria e cuida da aparência.
+        </p>
+    </div>
+
+    <div class="conteudo">
+        <h2>Importância do CSS no Desenvolvimento Web</h2>
+        <ul>
+            <li>Separa conteúdo da aparência</li>
+            <li>Deixa o site mais bonito e profissional</li>
+            <li>Facilita a manutenção</li>
+            <li>Permite criar sites responsivos (celular, tablet e computador)</li>
+            <li>Melhora a experiência do usuário</li>
+        </ul>
+    </div>
+
+    <div class="conteudo">
+        <h2>Tipos de Folhas de Estilo (CSS)</h2>
+        <ol>
+            <li>CSS Inline</li>
+            <li>CSS Interno</li>
+            <li>CSS Externo</li>
+        </ol>
+    </div>
+
+    <div class="conteudo">
+        <h2>O que são Seletores em CSS?</h2>
+        <p>
+            Seletores são usados para escolher quais elementos HTML serão modificados pelo CSS.
+        </p>
+
+        <pre>
+p {
+    color: blue;
+}
+        </pre>
+
+        <h3>Tipos de Seletores CSS</h3>
+        <ol>
+            <li>Seletor de tipo (tag)</li>
+            <li>Seletor de classe</li>
+            <li>Seletor de ID</li>
+            <li>Seletor universal</li>
+            <li>Seletor de agrupamento</li>
+            <li>Seletor descendente</li>
+            <li>Seletor filho direto</li>
+            <li>Seletor de atributo</li>
+            <li>Pseudo-classe</li>
+            <li>Pseudo-elemento</li>
+        </ol>
+    </div>
+
+    <div class="fotos">
+        <div class="foto">FOTO</div>
+        <div class="foto">FOTO</div>
+        <div class="foto">FOTO</div>
+        <div class="foto"> foto</div>
+    </div>
+
+    <div class="textos">
+        <div class="texto">TEXTO</div>
+        <div class="texto">TEXTO</div>
+        <div class="texto">texto</div>
+    </div>
+
+    <div class="footer">
+        FOOTER
+    </div>
+
+</div>
+
+</body>
+</html>

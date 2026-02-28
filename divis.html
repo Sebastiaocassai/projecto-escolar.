@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Exemplo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eaeaea;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        /* MENU */
+        .menu {
+            background-color: #8cc63f;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            background-color: #8cc63f;
+            padding: 60px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin-top: 10px;
+        }
+
+        /* FOTOS */
+        .fotos {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+
+        .foto {
+            width: 30%;
+            height: 200px;
+            background-color: #8cc63f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* TEXTOS */
+        .textos {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .texto {
+            width: 48%;
+            height: 200px;
+            background-color: #8cc63f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #8cc63f;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="menu">
+        MENU
+    </div>
+
+    <div class="sidebar">
+        SIDE BAR
+    </div>
+
+    <div class="fotos">
+        <div class="foto">FOTO</div>
+        <div class="foto">FOTO</div>
+        <div class="foto">FOTO</div>
+    </div>
+
+    <div class="textos">
+        <div class="texto">TEXTO</div>
+        <div class="texto">TEXTO</div>
+        <div class="texto">texto</div>
+    </div>
+
+    <div class="footer">
+        FOOTER
+    </div>
+
+</div>
+
+</body>
+</html>
